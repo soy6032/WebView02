@@ -12,6 +12,7 @@
 		144C77DF2320C38300A89BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144C77DD2320C38300A89BF3 /* Main.storyboard */; };
 		144C77E12320C38500A89BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144C77E02320C38500A89BF3 /* Assets.xcassets */; };
 		144C77E42320C38500A89BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144C77E22320C38500A89BF3 /* LaunchScreen.storyboard */; };
+		144C77ED2320C52E00A89BF3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144C77EC2320C52E00A89BF3 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		144C77E02320C38500A89BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		144C77E32320C38500A89BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		144C77E52320C38500A89BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144C77EC2320C52E00A89BF3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144C77ED2320C52E00A89BF3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				144C77D82320C38300A89BF3 /* WebView */,
 				144C77D72320C38300A89BF3 /* Products */,
+				144C77EB2320C52E00A89BF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +61,19 @@
 				144C77D92320C38300A89BF3 /* AppDelegate.swift */,
 				144C77DB2320C38300A89BF3 /* ViewController.swift */,
 				144C77DD2320C38300A89BF3 /* Main.storyboard */,
-				144C77E02320C38500A89BF3 /* Assets.xcassets */,
 				144C77E22320C38500A89BF3 /* LaunchScreen.storyboard */,
+				144C77E02320C38500A89BF3 /* Assets.xcassets */,
 				144C77E52320C38500A89BF3 /* Info.plist */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		144C77EB2320C52E00A89BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				144C77EC2320C52E00A89BF3 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
